@@ -1,0 +1,84 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat",sans-serif;
+	box-sizing:border-box;
+}
+
+body{
+	background-image : url("938f69fe540a075c18791b09b5d58258--website-developer-amazing-gifs.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	min-height : 100vh;
+}
+
+.container{
+	max-width: 800px;
+	margin: auto;
+	padding: 100px;
+}
+
+.txtb{
+	width: 100%;
+	border:none;
+	border-bottom: 2px solid #0000FF;
+	background: none;
+	padding: 10px;
+	outline: none;
+	font-size: 18px;
+	text-decoration-color: #fff;
+
+}
+
+h3{
+	margin: 10px 0;
+
+}
+
+hr{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+h5{
+	margin-top: 200px; 
+	margin-right:1000px; 
+	
+}
+
+.task{
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	padding: 18px;
+	margin: 6px 0;
+	overflow: hidden;
+	
+}
+.comp .task{
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	
+
+}
+.task i{
+	float: right;
+	margin-left: 20px;
+}
+
+h3{
+	background-image : linear-gradient(120deg,#fff,#000);
+}
+
+.advice {
+  width:100%;
+  overflow:hidden;
+  margin-left: 1000px; 
+}
+.advice p {
+  animation: slide-left 10s;
+}
+
